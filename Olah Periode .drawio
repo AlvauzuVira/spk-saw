@@ -89,7 +89,7 @@
                     <mxGeometry x="171" y="106" width="56" height="18" as="geometry"/>
                 </mxCell>
                 <mxCell id="smX56x16pPYq-yeECZq9-49" value="&lt;b&gt;Laporan Kinerja Karyawan&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="87" y="140" width="200" height="20" as="geometry"/>
+                    <mxGeometry x="87" y="140" width="200" height="31" as="geometry"/>
                 </mxCell>
                 <mxCell id="smX56x16pPYq-yeECZq9-50" value="10" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="624" y="176" width="32" height="17" as="geometry"/>
