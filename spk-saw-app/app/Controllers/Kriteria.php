@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Karyawan extends BaseController
+class Kriteria extends BaseController
 {
     public function index()
     {
