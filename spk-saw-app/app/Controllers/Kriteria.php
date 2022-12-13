@@ -8,4 +8,8 @@ class Kriteria extends BaseController
     {
         return view('kriteria/index');
     }
+    public function add()
+    {
+        return view('kriteria/add');
+    }
 }

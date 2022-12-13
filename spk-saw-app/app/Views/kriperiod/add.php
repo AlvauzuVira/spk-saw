@@ -2,6 +2,9 @@
 
 <?= $this->section('content') ?>
 
-<h1>Hello, world! di menu Home</h1>
+<div class="container mt-3 mb-3">
+    <h1>Input Kriteria-Periode </h1>
+
+</div>
 
 <?= $this->endSection() ?>

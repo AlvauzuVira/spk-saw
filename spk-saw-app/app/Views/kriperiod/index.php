@@ -2,6 +2,6 @@
 
 <?= $this->section('content') ?>
 
-<h1>Hello, world! di menu Home</h1>
+<h1>Kriteria-Periode</h1>
 
 <?= $this->endSection() ?>

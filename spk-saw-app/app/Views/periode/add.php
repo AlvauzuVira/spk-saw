@@ -64,7 +64,9 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
-
+.ui-datepicker-calender {
+  display: none;
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, .col-100, input[type=submit] {
@@ -75,50 +77,18 @@ input[type=submit]:hover {
 </style>
 
 <div class="container">
-<h1>Input Data Karyawan</h1>
+<h1>Input Periode</h1>
 <br>
   <form action="/action_page.php">
     <div class="row">
       <div class="col-25">
-        <label for="nip">NIP</label>
+        <label for="tahun">Tahun</label>
       </div>
       <div class="col-75">
-        <input type="text" id="nip" name="nip" placeholder="Nomor Induk Pegawai..">
+        <input type="date" id="tahun" name="tahun" placeholder="Perode Tahun..">
       </div>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="nama">Nama</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="nama" name="nama" placeholder="Nama Lengkap..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="jekel">Jenis Kelamin</label>
-      </div>
-      <div class="col-75">
-       <label><input type="radio" name="jenis_kelamin" value="L" /> Laki-laki</label>
-            <label><input type="radio" name="jenis_kelamin" value="P" /> Perempuan</label>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="alamat">Alamat</label>
-      </div>
-      <div class="col-75">
-        <textarea id="alamat" name="alamat" placeholder="Alamat Lengkap.." style="height:200px"></textarea>
-      </div>
-    </div>
-     <div class="row">
-      <div class="col-25">
-        <label for="no_hp">No. Handphone</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="no_hp" name="no_hp" placeholder="No. Handphone..">
-      </div>
-    </div>
+    
     <br>
     <div class="row">
     <div class="col-100">
@@ -126,5 +96,9 @@ input[type=submit]:hover {
     </div>
   </form>
 </div>
-
+<script>
+    $(function () {
+    $("#datepicker").datepicker({date_Format: 'yy'});
+});
+</script>
 <?= $this->endSection() ?>
